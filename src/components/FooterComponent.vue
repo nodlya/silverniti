@@ -27,7 +27,6 @@ export default {
 </script>
 
 <style scoped>
-
 footer p {
     color: white;
     font-size: 20px;
@@ -44,17 +43,43 @@ footer {
     background-color: black;
 }
 
-.box-1{
+.box-1 {
     padding: 30px 0px 30px 50px;
 }
 
-.box-2{
+.box-2 {
     padding: 30px;
 }
 
 .footer_info {
     font-size: 16px;
     padding: 2vh 0 3vh 0;
+}
+
+@media (max-width: 480px) {
+    footer p {
+        font-size: 14px;
+    }
+
+    .footer_info {
+        font-size: 10px;
+    }
+
+    .box-1 {
+        padding: 10px 0px 10px 30px;
+    }
+
+    .box-2 {
+        padding: 10px;
+    }
+
+
+    .footer_img {
+        width: 90%;
+        height: auto;
+        float: right;
+        margin-right: 0px !important;
+    }
 }
 
 .footer_item {
@@ -64,8 +89,8 @@ footer {
 
 
 .footer_img {
-    width: 281px;
-    height: 136px;
+    width: 90%;
+    height: auto;
     float: right;
     margin-right: 60px;
 }

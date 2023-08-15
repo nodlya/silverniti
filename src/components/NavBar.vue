@@ -49,4 +49,14 @@ export default {
     color: #000;
     padding: 10px;
 }
+
+@media (max-width: 480px) {
+    .navbar-menu li a {
+        font-size: 14px;
+    }
+
+    .navbar-menu li {
+    margin-right: 5px;
+}
+}
 </style>
