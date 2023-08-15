@@ -10,7 +10,14 @@
 
 body {
   background-color: white;
+  overflow-y: auto;
+  scrollbar-width: none;
 }
+
+&::-webkit-scrollbar{
+  width: 0;
+}
+
 
 /* a,
 .green {

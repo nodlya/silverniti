@@ -1,9 +1,11 @@
 <template>
   <div>
     <nav-bar />
-    <main-page />
-    <img src="./assets/Line 4.png" class="line" />
-    <footer-component />
+    <div class="content">
+      <main-page />
+      <img src="./assets/Line 4.png" class="line" />
+      <footer-component />
+    </div>
   </div>
 </template>
 
@@ -13,26 +15,6 @@ import NavBar from './components/NavBar.vue';
 import FooterComponent from './components/FooterComponent.vue';
 
 export default {
-  data() {
-    return {
-      isNavbarFixed: false
-    };
-  },
-
-  mounted() {
-    window.addEventListener('scroll', this.handleScroll);
-  },
-
-  beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll);
-  },
-
-  methods: {
-    handleScroll() {
-      this.isNavbarFixed = window.scrollY !== 0;
-    }
-  },
-  
   name: "App",
   components: {
     MainPage,
@@ -47,6 +29,11 @@ export default {
 main-page {
   background-color: white;
   margin-bottom: 5vh;
+
+}
+
+.content{
+  padding-top: 130px;
 }
 
 .line {

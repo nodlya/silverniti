@@ -22,6 +22,7 @@ export default {
     height: 60px;
     list-style-type: none;
     padding-left: 0;
+    padding-right: 3.5%;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,7 +32,7 @@ export default {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1); */
 }
 
 .navbar-menu li {
