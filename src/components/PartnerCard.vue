@@ -6,12 +6,13 @@
     />
     <div class="right-section">
       <p>{{ partnerName }}</p>
+      <div class="links">
       <partner-link
         v-for="{ id, type, url } in partnerLinkList"
         :key="id"
         :type="type"
         :url="url"
-      />
+      /></div>
     </div>
   </div>
 </template>
@@ -59,13 +60,19 @@ export default {
 }
 
 .right-section {
-  margin-left: 8px;
+  margin-left: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
   padding: 4px;
   color: black;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
 
 img {

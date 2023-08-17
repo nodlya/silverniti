@@ -33,8 +33,14 @@ a {
     flex-direction: row;
     align-items: center;
     gap: 5px;
-    font-size: 16px;
+    font-size: 12px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+a :hover {
+    text-decoration: underline;
 }
 
 img {
