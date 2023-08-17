@@ -8,12 +8,11 @@
 </template>
 
 <script>
-export default {
+export default { 
     name: "PartnerLink",
-
     props: {
         type: {
-            type: String,
+            type: String, 
             default: ""
         },
 
@@ -26,13 +25,15 @@ export default {
 </script>
 
 <style scoped>
+div {
+    color: black;
+}
 a {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
     font-size: 16px;
-    color: black;
     text-transform: uppercase;
 }
 

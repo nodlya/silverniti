@@ -3,12 +3,27 @@
     <nav-bar />
     <div class="content">
       <main-page />
-      <img src="./assets/Line 4.png" class="line" />
+      <img
+        src="./assets/Line 4.png"
+        class="line"
+      />
       <div class="sections">
-        <div v-for="locality in partners_info" :key="locality.locality" class="section">
-          <h2>{{ locality.locality }}</h2>
-          <div v-for="partner in locality.body" :key="partner.id" class="cards">
-            <partner-card partner-logo-name="partner.partnerLogoName" parnter-name="partner.partnerName" partner-link-list="partner.partnerLinkList" />
+        <div
+          v-for="{ locality, body } in partners_info"
+          :key="locality"
+          class="section"
+        >
+          <h2>{{ locality }}</h2>
+          <div
+            v-for="{ id, partnerLogoName, partnerName, partnerLinksList } in body"
+            :key="id"
+            class="cards"
+          >
+            <partner-card
+              :partner-logo-name="partnerLogoName"
+              :partner-name="partnerName"
+              :partner-link-list="partnerLinksList"
+            />
           </div>
         </div>
       </div>
@@ -19,12 +34,11 @@
 </template>
 
 <script>
-import MainPage from './components/MainPage.vue';
-import NavBar from './components/NavBar.vue';
-import FooterComponent from './components/FooterComponent.vue';
-import PartnerCard from './components/PartnerCard.vue';
-import partners_info from './partners_info.json'
-import VAccordeon from "./components/VAccordeon.vue";
+import MainPage from "./components/MainPage.vue";
+import NavBar from "./components/NavBar.vue";
+import FooterComponent from "./components/FooterComponent.vue";
+import PartnerCard from "./components/PartnerCard.vue";
+import partners_info from "./partners_info.js";
 
 export default {
   name: "App",
@@ -37,23 +51,21 @@ export default {
 
   data() {
     return {
-      jsonData: partners_info
-    }
+      partners_info
+    };
   }
 };
-
-
 </script>
 
 <style>
 main-page {
   background-color: white;
   margin-bottom: 5vh;
-
 }
 
 .content {
   padding-top: 130px;
+  color: black;
 }
 
 .line {
