@@ -3,10 +3,6 @@
     <nav-bar />
     <div class="content">
       <main-page />
-      <img
-        src="./assets/Line 4.png"
-        class="line"
-      />
       <div class="sections">
         <div
           v-for="{ locality, body } in partners_info"
@@ -38,6 +34,7 @@ import MainPage from "./components/MainPage.vue";
 import NavBar from "./components/NavBar.vue";
 import FooterComponent from "./components/FooterComponent.vue";
 import PartnerCard from "./components/PartnerCard.vue";
+
 import partners_info from "./partners_info.js";
 
 export default {
@@ -58,18 +55,26 @@ export default {
 </script>
 
 <style>
-main-page {
-  background-color: white;
-  margin-bottom: 5vh;
+@font-face {
+  font-family: "Manrope";
+  font-weight: 400;
+  src: url(./assets/fonts/Manrope.ttf);
+}
+
+/* semiBold шрифт */
+@font-face {
+  font-family: "Manrope";
+  font-weight: 600;
+  src: url(./assets/fonts/Manrope.ttf);
+}
+
+* {
+  font-family: "manrope";
 }
 
 .content {
   padding-top: 130px;
   color: black;
-}
-
-.line {
-  width: 100%;
 }
 
 .cards {
