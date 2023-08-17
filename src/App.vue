@@ -4,10 +4,13 @@
     <div class="content">
       <main-page />
       <img src="./assets/Line 4.png" class="line" />
-      <div class="cards">
-        <partner-card partner-num="5.png" />
-        <partner-card partner-num="6.jpg" />
-        <partner-card partner-num="10.jpg" />
+      <div class="sections">
+        <div v-for="locality in partners_info" :key="locality.locality" class="section">
+          <h2>{{ locality.locality }}</h2>
+          <div v-for="partner in locality.body" :key="partner.id" class="cards">
+            <partner-card partner-logo-name="partner.partnerLogoName" parnter-name="partner.partnerName" partner-link-list="partner.partnerLinkList" />
+          </div>
+        </div>
       </div>
       <footer-component />
     </div>
@@ -19,6 +22,7 @@ import MainPage from './components/MainPage.vue';
 import NavBar from './components/NavBar.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import PartnerCard from './components/PartnerCard.vue';
+import partners_info from './partners_info.json'
 
 export default {
   name: "App",
@@ -27,9 +31,16 @@ export default {
     NavBar,
     FooterComponent,
     PartnerCard
-  }
+  },
 
+  data() {
+    return {
+      jsonData: partners_info
+    }
+  }
 };
+
+
 </script>
 
 <style>
@@ -47,7 +58,7 @@ main-page {
   width: 100%;
 }
 
-.cards{
+.cards {
   display: flex;
   flex-direction: row;
   gap: 16px;

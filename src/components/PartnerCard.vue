@@ -2,7 +2,7 @@
     <div class="card">
         <img alt="Image" :src="imageLink">
         <div class="right-section">
-            <p>Классный замечательный партнёр</p>
+            <p>{{ partnerName }}</p>
             <partner-link />
         </div>
     </div>
@@ -18,15 +18,25 @@ export default {
     },
 
     props: {
-        partnerNum: {
+        partnerName: {
+            type: String,
+            default: ""
+        },
+
+        partnerLogoName: {
             type: String,
             default: "0"
+        },
+
+        partnerLinkList: {
+            type: Array,
+            default: new Array
         }
     },
 
     computed: {
         imageLink() {
-            return `/src/assets/partners_logo/${this.partnerNum}`;
+            return `/src/assets/partners_logo/${this.partnerLogoName}`;
         }
     }
 
