@@ -34,10 +34,10 @@ export default {
 
 <style scoped>
 .container {
-  background-color: white;
-  color: black;
-  justify-content: center;
-  margin-bottom: 40vh;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    margin-bottom: 25vh;
 }
 
 .main-page-grid {
@@ -52,26 +52,27 @@ export default {
 }
 
 .main-page_img1 {
-  height: 75%;
-  width: auto;
+    height: auto;
+    width: 80%;
 }
 
 .main-page_img2 {
-  height: auto;
-  width: auto;
+    height: auto;
+    width: 90%;
 }
 
 .main-page_text {
-  width: 84%;
-  font-size: 23px;
-  text-align: right;
-  text-transform: uppercase;
-  margin-top: 90px;
+    width: 70%;
+    font-size: 23px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 90px;
 }
 
 .box-3 {
-  margin-top: 60px;
-  margin-bottom: 60px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    height: auto;
 }
 
 button {
