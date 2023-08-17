@@ -75,7 +75,7 @@ const partners_info = [
                 ]
             },
             {
-                "partnerLogoName": "6.jpg",
+                "partnerLogoName": "6.png",
                 "partnerName": "Фабрика игрушек «Весна»",
                 "partnerLinksList": [
                     {
@@ -113,7 +113,7 @@ const partners_info = [
         "locality": "Оренбургская область",
         "body": [
             {
-                "partnerLogoName": "8.jpg",
+                "partnerLogoName": "8.png",
                 "partnerName": "Газпром добыча Оренбург",
                 "partnerLinksList": [
                     {
@@ -131,7 +131,7 @@ const partners_info = [
                 ]
             },
             {
-                "partnerLogoName": "9.jpg",
+                "partnerLogoName": "9.png",
                 "partnerName": "Уральская Сталь",
                 "partnerLinksList": [
                     {
@@ -156,7 +156,7 @@ const partners_info = [
         "locality": "Пермский край",
         "body": [
             {
-                "partnerLogoName": "10.jpg",
+                "partnerLogoName": "10.png",
                 "partnerName": "ЛУКОЙЛ-ПЕРМЬ",
                 "partnerLinksList": [
                     {
@@ -212,7 +212,7 @@ const partners_info = [
         ]
     },
     {
-        "partnerLogoName": "13.jpg",
+        "partnerLogoName": "13.png",
         "partnerName": "КАМА",
         "partnerLinksList": [
             {
@@ -272,7 +272,7 @@ const partners_info = [
         ]
     },
     {
-        "partnerLogoName": "17.jpg",
+        "partnerLogoName": "17.png",
         "partnerName": "Протон-ПМ",
         "partnerLinksList": [
             {
@@ -328,7 +328,7 @@ const partners_info = [
         ]
     },
     {
-        "partnerLogoName": "20.jpg",
+        "partnerLogoName": "20.png",
         "partnerName": "Пермская государственная художественная галерея",
         "partnerLinksList": [
             {
@@ -352,7 +352,7 @@ const partners_info = [
         "locality": "Республика Башкортостан",
         "body": [
             {
-                "partnerLogoName": "21.jpg",
+                "partnerLogoName": "21.png",
                 "partnerName": "Башкирская содовая компания",
                 "partnerLinksList": [
                     {
@@ -418,7 +418,7 @@ const partners_info = [
                 ]
             },
             {
-                "partnerLogoName": "25.jpg",
+                "partnerLogoName": "25.png",
                 "partnerName": "Корпорация развития Среднего Урала",
                 "partnerLinksList": [
                     {
@@ -490,7 +490,7 @@ const partners_info = [
                 ]
             },
             {
-                "partnerLogoName": "29.jpg",
+                "partnerLogoName": "29.png",
                 "partnerName": "ВИЗ-Сталь",
                 "partnerLinksList": [
                     {
@@ -578,7 +578,7 @@ const partners_info = [
                 ]
             },
             {
-                "partnerLogoName": "35.jpg",
+                "partnerLogoName": "35.png",
                 "partnerName": "Корпорация ВСМПО-АВИСМА",
                 "partnerLinksList": [
                     {
@@ -670,7 +670,7 @@ const partners_info = [
                 ]
             },
             {
-                "partnerLogoName": "40.jpg",
+                "partnerLogoName": "40.png",
                 "partnerName": "СибурТюменьГаз",
                 "partnerLinksList": [
                     {
@@ -725,7 +725,7 @@ const partners_info = [
         "locality": "Челябинская область",
         "body": [
             {
-                "partnerLogoName": "43.jpg",
+                "partnerLogoName": "43.png",
                 "partnerName": "Ламинарные системы",
                 "partnerLinksList": [
                     {
