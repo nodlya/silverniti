@@ -57,8 +57,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
-
-import partners_info from "./partners_info.js";
+import VAccordeon from "./components/VAccordeon.vue";
 
 export default {
   name: "App",
@@ -81,6 +80,7 @@ export default {
     return {
       partners_info
     };
+    VAccordeon
   }
 };
 </script>

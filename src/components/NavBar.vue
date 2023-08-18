@@ -1,13 +1,15 @@
 <template>
-  <nav class="navbar">
-    <div class="container">
-      <ul class="navbar-menu">
-        <li><a href="#">РЕГИОНЫ</a></li>
-        <li><a href="#">МЕДИАРЕСУРСЫ</a></li>
-        <li><a href="#">КОНТАКТЫ</a></li>
-      </ul>
-    </div>
-  </nav>
+  <ul class="navbar-menu">
+    <li>
+      <a href="#"> РЕГИОНЫ </a>
+    </li>
+    <li>
+      <a href="#">МЕДИАРЕСУРСЫ</a>
+    </li>
+    <li>
+      <a href="#">КОНТАКТЫ</a>
+    </li>
+  </ul>
 </template>
 
 <script>
