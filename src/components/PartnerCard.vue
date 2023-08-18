@@ -57,6 +57,7 @@ export default {
   background-color: #f7f7f7;
   padding: 8px;
   color: black;
+  height: 80px;
 }
 
 .right-section {

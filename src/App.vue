@@ -10,22 +10,34 @@
           class="section"
         >
           <h2>{{ locality }}</h2>
-          <div
-            v-for="{ id, partnerLogoName, partnerName, partnerLinksList } in body"
-            :key="id"
-            class="cards"
+
+          <swiper
+            :slides-per-view="1"
+            :space-between="50"
+            :navigation="true"
+            :modules="modules"
+            :centered-slides="true"
+            @swiper="onSwiper"
+            @slide-change="onSlideChange"
           >
-            <partner-card
-              :partner-logo-name="partnerLogoName"
-              :partner-name="partnerName"
-              :partner-link-list="partnerLinksList"
-            />
-          </div>
+            <swiper-slide
+              v-for="(partner, index) in body"
+              :key="index"
+            >
+              <div class="slide-content">
+                <partner-card
+                  :partner-logo-name="partner.partnerLogoName"
+                  :partner-name="partner.partnerName"
+                  :partner-link-list="partner.partnerLinksList"
+                />
+              </div>
+            </swiper-slide>
+          </swiper>
         </div>
       </div>
       <footer-component />
     </div>
-    <v-accordeon title="Вконтакте"></v-accordeon>
+    <!-- <v-accordeon title="Вконтакте"></v-accordeon> -->
   </div>
 </template>
 
@@ -34,6 +46,10 @@ import MainPage from "./components/MainPage.vue";
 import NavBar from "./components/NavBar.vue";
 import FooterComponent from "./components/FooterComponent.vue";
 import PartnerCard from "./components/PartnerCard.vue";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+import "swiper/css";
 
 import partners_info from "./partners_info.js";
 
@@ -43,7 +59,15 @@ export default {
     MainPage,
     NavBar,
     FooterComponent,
-    PartnerCard
+    PartnerCard,
+    Swiper,
+    SwiperSlide
+  },
+
+  setup() {
+    return {
+      modules: [Navigation]
+    };
   },
 
   data() {
@@ -72,10 +96,41 @@ export default {
   font-family: "manrope";
 }
 
+swiper-slide {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .content {
   padding-top: 130px;
   color: black;
 }
+
+.sections {
+  margin: 0 40px 0 40px;
+}
+
+.section{
+  margin: 16px 0 8px 0;
+}
+
+.slide-content {
+  width: 90%;
+  margin-left: 5%;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* .slide-content {
+  padding: 0 16px 0 16px;
+  display: inline-block;
+  width: auto;
+  margin: 0 40px; /* Задайте отступы между карточками 
+} */
 
 .cards {
   display: flex;
