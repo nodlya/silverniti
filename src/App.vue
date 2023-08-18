@@ -3,10 +3,17 @@
     <nav-bar />
     <div class="content">
       <main-page />
-      <div class="sections">
+
+      <img
+        src="./assets/divider.png"
+        class="divider"
+      />
+
+      <h1>ПАРТНЁРЫ</h1>
+      <div  class="sections">
         <div
           v-for="{ locality, body } in partners_info"
-          :key="locality"
+          :key="locality+body"
           class="section"
         >
           <h2>{{ locality }}</h2>
@@ -103,16 +110,31 @@ swiper-slide {
   justify-content: center;
 }
 
+nav-bar {
+  z-index: 10000;
+}
+
 .content {
   padding-top: 130px;
   color: black;
+}
+
+.divider {
+  margin: 80px 0 80px 0;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin-left: 40px;
+  margin-bottom: 24px;
 }
 
 .sections {
   margin: 0 40px 0 40px;
 }
 
-.section{
+.section {
   margin: 16px 0 8px 0;
 }
 
@@ -137,5 +159,20 @@ swiper-slide {
   flex-direction: row;
   gap: 16px;
   margin: 16px;
+}
+
+.swiper-button-next {
+  --swiper-navigation-color: black;
+}
+
+.swiper-button-prev {
+  --swiper-navigation-color: black;
+}
+
+@media (max-width: 900px) {
+  .swiper-button-next, .swiper-button-prev{
+    --swiper-navigation-size: 20px;
+    margin: 0 -8px 0 -8px;
+  }
 }
 </style>

@@ -47,4 +47,14 @@ img {
     height: 16px;
     width: auto;
 }
+
+@media (max-width: 900px) {
+    a {
+        font-size: 10px;
+    }
+
+    img {
+        height: 8px;
+    }
+}
 </style>
