@@ -10,10 +10,12 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "primevue": "^3.32.0",
     "slick": "^1.12.2",
     "swiper": "^10.2.0",
     "vue": "^3.3.4",
-    "vue-carousel": "^0.18.0"
+    "vue-carousel": "^0.18.0",
+    "vue-collapsible": "^2.0.0",
     "vue3-rich-accordion": "^0.0.7"
   },
   "devDependencies": {

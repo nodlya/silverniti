@@ -302,8 +302,8 @@ export const media = [
     name: "Вконтакте",
     cards: [
       {
-        part: "1.svg",
-        partnerName: "Национальный конкурс корпоративные медиа «Серебряные нити»",
+        logoName: "1.svg",
+        partner: "Национальный конкурс корпоративные медиа «Серебряные нити»",
         url: "https://vk.com/silverniti"
       },
 
@@ -314,266 +314,266 @@ export const media = [
       },
 
       {
-        part: "6.png",
-        partnerName: "Фабрика игрушек «Весна»",
+        logoName: "6.png",
+        partner: "Фабрика игрушек «Весна»",
         url: "https://vk.com/vesnatoys"
       },
 
       {
-        part: "7.png",
-        partnerName: "Кировский областной драматический театр имени С. М. Кирова",
+        logoName: "7.png",
+        partner: "Кировский областной драматический театр имени С. М. Кирова",
         url: "https://vk.com/kirov.dramteatr"
       },
 
       {
-        part: "8.png",
-        partnerName: "Газпром добыча Оренбург",
+        logoName: "8.png",
+        partner: "Газпром добыча Оренбург",
         url: "https://vk.com/gdo_smi"
       },
 
       {
-        part: "9.png",
-        partnerName: "Уральская Сталь",
+        logoName: "9.png",
+        partner: "Уральская Сталь",
         url: "https://vk.com/uralsteel.news"
       },
 
       {
-        part: "11.png",
-        partnerName: "Метафракс Групп",
+        logoName: "11.png",
+        partner: "Метафракс Групп",
         url: "https://vk.com/metafrax_official"
       },
 
       {
-        part: "12.png",
-        partnerName: "Группа компаний «Тенториум»",
+        logoName: "12.png",
+        partner: "Группа компаний «Тенториум»",
         url: "https://vk.com/tentoriumrus"
       },
 
       {
-        part: "13.png",
-        partnerName: "КАМА",
+        logoName: "13.png",
+        partner: "КАМА",
         url: "https://vk.com/oookama"
       },
 
       {
-        part: "14.png",
-        partnerName: "Камский кабель",
+        logoName: "14.png",
+        partner: "Камский кабель",
         url: "https://vk.com/kamkabel"
       },
 
       {
-        part: "16.png",
-        partnerName: "Мотовилихинские заводы",
+        logoName: "16.png",
+        partner: "Мотовилихинские заводы",
         url: "https://vk.com/perm_mz"
       },
 
       {
-        part: "17.png",
-        partnerName: "Протон-ПМ",
+        logoName: "17.png",
+        partner: "Протон-ПМ",
         url: "https://vk.com/protonpm"
       },
 
       {
-        part: "18.png",
-        partnerName: "Сорбент",
+        logoName: "18.png",
+        partner: "Сорбент",
         url: "https://vk.com/zeligr"
       },
 
       {
-        part: "19.svg",
-        partnerName: "Александровский машиностроительный завод",
+        logoName: "19.svg",
+        partner: "Александровский машиностроительный завод",
         url: "https://vk.com/amz_perm"
       },
 
       {
-        part: "20.png",
-        partnerName: "Пермская государственная художественная галерея",
+        logoName: "20.png",
+        partner: "Пермская государственная художественная галерея",
         url: "https://vk.com/club5281156"
       },
 
       {
-        part: "21.png",
-        partnerName: "Башкирская содовая компания",
+        palogoNamert: "21.png",
+        partner: "Башкирская содовая компания",
         url: "https://vk.com/soda_ru"
       },
 
       {
-        part: "23.png",
-        partnerName: "Башнефть",
+        logoName: "23.png",
+        partner: "Башнефть",
         url: "https://vk.com/bashneftcompany"
       },
 
       {
-        part: "24.svg",
-        partnerName: "Русская медная компания",
+        logoName: "24.svg",
+        partner: "Русская медная компания",
         url: "https://vk.com/rccgroup"
       },
 
       {
-        part: "25.png",
-        partnerName: "Корпорация развития Среднего Урала",
+        logoName: "25.png",
+        partner: "Корпорация развития Среднего Урала",
         url: "https://vk.com/investuralcom"
       },
 
       {
-        part: "26.png",
-        partnerName: "Екатеринбургский государственный академический театр оперы и балета",
+        logoName: "26.png",
+        partner: "Екатеринбургский государственный академический театр оперы и балета",
         url: "https://vk.com/uralopera"
       },
 
       {
-        part: "27.png",
-        partnerName: "ФАРФОР СЫСЕРТИ",
+        logoName: "27.png",
+        partner: "ФАРФОР СЫСЕРТИ",
         url: "https://vk.com/farfor.syserty"
       },
 
       {
-        part: "28.png",
-        partnerName: "Уральский турбинный завод",
+        logoName: "28.png",
+        partner: "Уральский турбинный завод",
         url: "https://vk.com/club194340911"
       },
 
       {
-        part: "29.png",
-        partnerName: "ВИЗ-Сталь",
+        logoName: "29.png",
+        partner: "ВИЗ-Сталь",
         url: "https://vk.com/viz_steel_nlmk"
       },
 
       {
-        part: "30.png",
-        partnerName: "УГМК-Холдинг",
+        logoName: "30.png",
+        partner: "УГМК-Холдинг",
         url: "https://vk.com/school.ugmk "
       },
 
       {
-        part: "31.png",
-        partnerName: "Уралэлектромедь",
+        logoName: "31.png",
+        partner: "Уралэлектромедь",
         url: "https://vk.com/elem_cuprum"
       },
 
       {
-        part: "32.png",
-        partnerName: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
+        logoName: "32.png",
+        partner: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
         url: "https://vk.com/realuvznews"
       },
 
       {
-        part: "34.svg",
-        partnerName: "Титановая долина",
+        logoName: "34.svg",
+        partner: "Титановая долина",
         url: "https://vk.com/public207126738"
       },
 
       {
-        part: "35.png",
-        partnerName: "Корпорация ВСМПО-АВИСМА",
+        logoName: "35.png",
+        partner: "Корпорация ВСМПО-АВИСМА",
         url: "https://vk.com/press.room"
       },
 
       {
-        part: "36.svg",
-        partnerName: "Россети Урал (ОАО «МРСК Урала»)",
+        logoName: "36.svg",
+        partner: "Россети Урал (ОАО «МРСК Урала»)",
         url: "https://vk.com/rosseti_ural"
       },
 
       {
-        part: "37.png",
-        partnerName: "Серовский механический завод",
+        logoName: "37.png",
+        partner: "Серовский механический завод",
         url: "https://vk.com/id256460065"
       },
 
       {
-        part: "38.png",
-        partnerName: "Группа страховых компаний «Югория",
+        logoName: "38.png",
+        partner: "Группа страховых компаний «Югория",
         url: "https://vk.com/ugoria24"
       },
 
       {
-        part: "39.png",
-        partnerName: "Газпром трансгаз Сургут",
+        logoName: "39.png",
+        partner: "Газпром трансгаз Сургут",
         url: "https://vk.com/gazpromtransgazsurgut"
       },
 
       {
-        part: "40.png",
-        partnerName: "СибурТюменьГаз",
+        logoName: "40.png",
+        partner: "СибурТюменьГаз",
         url: "https://vk.com/career.sibur"
       },
 
       {
-        part: "41.png",
-        partnerName: "Мостострой – 11",
+        logoName: "41.png",
+        partner: "Мостострой – 11",
         url: "https://vk.com/mostostroy_11"
       },
 
       {
-        part: "42.png",
-        partnerName: "Газпром Добыча Уренгой",
+        logoName: "42.png",
+        partner: "Газпром Добыча Уренгой",
         url: "https://vk.com/gazpromdobychaurengoy"
       },
 
       {
-        part: "43.png",
-        partnerName: "Ламинарные системы",
+        logoName: "43.png",
+        partner: "Ламинарные системы",
         url: "https://vk.com/lamsys"
       },
 
       {
-        part: "44.png",
-        partnerName: "СИТНО",
+        logoName: "44.png",
+        partner: "СИТНО",
         url: "https://vk.com/sitno_official"
       },
 
       {
-        part: "45.svg",
-        partnerName: "Хлебпром",
+        logoName: "45.svg",
+        partner: "Хлебпром",
         url: "https://vk.com/hlebprom"
       },
 
       {
-        part: "46.png",
-        partnerName: "Автомобильный завод «УРАЛ»",
+        logoName: "46.png",
+        partner: "Автомобильный завод «УРАЛ»",
         url: "https://vk.com/azural.miass"
       },
 
       {
-        part: "47.png",
-        partnerName: "Челябинвестбанк",
+        logoName: "47.png",
+        partner: "Челябинвестбанк",
         url: "https://vk.com/bankchelinvest"
       },
 
       {
-        part: "48.jpg",
-        partnerName: "Уралпромтехника",
+        logoName: "48.jpg",
+        partner: "Уралпромтехника",
         url: "https://vk.com/uralpromtehnika"
       },
 
       {
-        part: "49.png",
-        partnerName: "Челябинский цинковый завод",
+        logoName: "49.png",
+        partner: "Челябинский цинковый завод",
         url: "https://vk.com/zinc74"
       },
 
       {
-        part: "50.jpg",
-        partnerName: "Трубодеталь/Челябинский завод ОМК",
+        logoName: "50.jpg",
+        partner: "Трубодеталь/Челябинский завод ОМК",
         url: "https://vk.com/trubodetal"
       },
 
       {
-        part: "51.png",
-        partnerName: "Магнитогорский металлургический комбинат",
+        logoName: "51.png",
+        partner: "Магнитогорский металлургический комбинат",
         url: "https://vk.com/mmk.steel"
       },
 
       {
-        part: "52.png",
-        partnerName: "Челябинский кузнечно-прессовый завод",
+        logoName: "52.png",
+        partner: "Челябинский кузнечно-прессовый завод",
         url: "https://vk.com/chkpz"
       },
 
       {
-        part: "53.png",
-        partnerName: "Челябинский государственный университет",
+        logoName: "53.png",
+        partner: "Челябинский государственный университет",
         url: "https://vk.com/csu76"
       }
     ]
@@ -583,68 +583,68 @@ export const media = [
     name: "Одноклассники",
     cards: [
       {
-        part: "6.png",
-        partnerName: "Фабрика игрушек «Весна»",
+        logoName: "6.png",
+        partner: "Фабрика игрушек «Весна»",
         url: "https://ok.ru/vesnatoys"
       },
 
       {
-        part: "12.png",
-        partnerName: "Группа компаний «Тенториум»",
+        logoName: "12.png",
+        partner: "Группа компаний «Тенториум»",
         url: "https://ok.ru/tentoriumrus"
       },
 
       {
-        part: "15.png",
-        partnerName: "СОЛИКАМСКБУМПРОМ",
+        logoName: "15.png",
+        partner: "СОЛИКАМСКБУМПРОМ",
         url: "https://ok.ru/group/66853424136237"
       },
 
       {
-        part: "32.png",
-        partnerName: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
+        logoName: "32.png",
+        partner: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
         url: "https://ok.ru/uvznews"
       },
 
       {
-        part: "35.png",
-        partnerName: "Корпорация ВСМПО-АВИСМА",
+        logoName: "35.png",
+        partner: "Корпорация ВСМПО-АВИСМА",
         url: "https://ok.ru/press.room"
       },
 
       {
-        part: "36.svg",
-        partnerName: "Россети Урал (ОАО «МРСК Урала»)",
+        logoName: "36.svg",
+        partner: "Россети Урал (ОАО «МРСК Урала»)",
         url: "https://ok.ru/rossetiural"
       },
 
       {
-        part: "37.png",
-        partnerName: "Серовский механический завод",
+        logoName: "37.png",
+        partner: "Серовский механический завод",
         url: "https://ok.ru/gazeta.trudovayavakhta"
       },
 
       {
-        part: "45.svg",
-        partnerName: "Хлебпром",
+        logoName: "45.svg",
+        partner: "Хлебпром",
         url: "https://ok.ru/hlebprom"
       },
 
       {
-        part: "46.png",
-        partnerName: "Автомобильный завод «УРАЛ»",
+        logoName: "46.png",
+        partner: "Автомобильный завод «УРАЛ»",
         url: "https://ok.ru/azural.miass "
       },
 
       {
-        part: "47.png",
-        partnerName: "Челябинвестбанк",
+        logoName: "47.png",
+        partner: "Челябинвестбанк",
         url: "https://ok.ru/chelinvest"
       },
 
       {
-        part: "53.png",
-        partnerName: "Челябинский государственный университет",
+        logoName: "53.png",
+        partner: "Челябинский государственный университет",
         url: "https://ok.ru/chelgu"
       }
     ]
@@ -654,152 +654,152 @@ export const media = [
     name: "Телеграм",
     cards: [
       {
-        part: "8.png",
-        partnerName: "Газпром добыча Оренбург",
+        logoName: "8.png",
+        partner: "Газпром добыча Оренбург",
         url: "https://t.me/s/gazpromdobychaoren"
       },
 
       {
-        part: "9.png",
-        partnerName: "Уральская Сталь",
+        logoName: "9.png",
+        partner: "Уральская Сталь",
         url: "https://t.me/s/uralsteel_official "
       },
 
       {
-        part: "10.png",
-        partnerName: "ЛУКОЙЛ-ПЕРМЬ",
+        logoName: "10.png",
+        partner: "ЛУКОЙЛ-ПЕРМЬ",
         url: "https://t.me/lukoilofficial"
       },
 
       {
-        part: "11.png",
-        partnerName: "Метафракс Групп",
+        logoName: "11.png",
+        partner: "Метафракс Групп",
         url: "https://t.me/MetafraxGroup"
       },
 
       {
-        part: "12.png",
-        partnerName: "Группа компаний «Тенториум»",
+        logoName: "12.png",
+        partner: "Группа компаний «Тенториум»",
         url: "https://t.me/s/tentoriumrus"
       },
 
       {
-        part: "13.png",
-        partnerName: "КАМА",
+        logoName: "13.png",
+        partner: "КАМА",
         url: "https://t.me/s/oookama"
       },
 
       {
-        part: "19.svg",
-        partnerName: "Александровский машиностроительный завод",
+        logoName: "19.svg",
+        partner: "Александровский машиностроительный завод",
         url: "https://t.me/s/nashamz"
       },
 
       {
-        part: "20.png",
-        partnerName: "Пермская государственная художественная галерея",
+        logoName: "20.png",
+        partner: "Пермская государственная художественная галерея",
         url: "https://t.me/s/permartmuseum"
       },
 
       {
-        part: "24.svg",
-        partnerName: "Русская медная компания",
+        logoName: "24.svg",
+        partner: "Русская медная компания",
         url: "https://t.me/s/russiancoppercompany"
       },
 
       {
-        part: "26.png",
-        partnerName: "Екатеринбургский государственный академический театр оперы и балета",
+        logoName: "26.png",
+        partner: "Екатеринбургский государственный академический театр оперы и балета",
         url: "https://t.me/s/UralOperaBallet"
       },
 
       {
-        part: "28.png",
-        partnerName: "Уральский турбинный завод",
+        logoName: "28.png",
+        partner: "Уральский турбинный завод",
         url: "https://t.me/s/rotec_utz"
       },
 
       {
-        part: "32.png",
-        partnerName: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
+        logoName: "32.png",
+        partner: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
         url: "https://t.me/s/uvznews"
       },
 
       {
-        part: "33.svg",
-        partnerName: "Эл5 – Энерго",
+        logoName: "33.svg",
+        partner: "Эл5 – Энерго",
         url: "https://t.me/s/EL5_Energo"
       },
 
       {
-        part: "34.svg",
-        partnerName: "Титановая долина",
+        logoName: "34.svg",
+        partner: "Титановая долина",
         url: "https://t.me/s/oeztv"
       },
 
       {
-        part: "35.png",
-        partnerName: "Корпорация ВСМПО-АВИСМА",
+        logoName: "35.png",
+        partner: "Корпорация ВСМПО-АВИСМА",
         url: "https://t.me/vsmpo_avisma_official"
       },
 
       {
-        part: "36.svg",
-        partnerName: "Россети Урал (ОАО «МРСК Урала»)",
+        logoName: "36.svg",
+        partner: "Россети Урал (ОАО «МРСК Урала»)",
         url: "https://t.me/s/rosseti_ural"
       },
 
       {
-        part: "37.png",
-        partnerName: "Серовский механический завод",
+        logoName: "37.png",
+        partner: "Серовский механический завод",
         url: "https://t.me/s/trud_vaht"
       },
 
       {
-        part: "39.png",
-        partnerName: "Газпром трансгаз Сургут",
+        logoName: "39.png",
+        partner: "Газпром трансгаз Сургут",
         url: "https://t.me/s/gazpromtransgazsurgut"
       },
 
       {
-        part: "40.png",
-        partnerName: "СибурТюменьГаз",
+        logoName: "40.png",
+        partner: "СибурТюменьГаз",
         url: "https://t.me/s/siburofficial"
       },
 
       {
-        part: "42.png",
-        partnerName: "Газпром Добыча Уренгой",
+        logoName: "42.png",
+        partner: "Газпром Добыча Уренгой",
         url: "https://t.me/s/gazurengoya"
       },
 
       {
-        part: "47.png",
-        partnerName: "Челябинвестбанк",
+        logoName: "47.png",
+        partner: "Челябинвестбанк",
         url: "https://t.me/s/chelinvest_bank"
       },
 
       {
-        part: "49.png",
-        partnerName: "Челябинский цинковый завод",
+        logoName: "49.png",
+        partner: "Челябинский цинковый завод",
         url: "https://t.me/s/zinc74"
       },
 
       {
-        part: "51.png",
-        partnerName: "Магнитогорский металлургический комбинат",
+        logoName: "51.png",
+        partner: "Магнитогорский металлургический комбинат",
         url: "https://t.me/s/MMK_official"
       },
 
       {
-        part: "52.png",
-        partnerName: "Челябинский кузнечно-прессовый завод",
+        logoName: "52.png",
+        partner: "Челябинский кузнечно-прессовый завод",
         url: "https://t.me/s/chkpz_official"
       },
 
       {
-        part: "53.png",
-        partnerName: "Челябинский государственный университет",
+        logoName: "53.png",
+        partner: "Челябинский государственный университет",
         url: "https://t.me/csu76"
       }
     ]
@@ -809,104 +809,104 @@ export const media = [
     name: "YouTube",
     cards: [
       {
-        part: "5.png",
-        partnerName: "Электромашиностроительный завод им. ЛЕПСЕ",
+        logoName: "5.png",
+        partner: "Электромашиностроительный завод им. ЛЕПСЕ",
         url: "https://www.youtube.com/channel/UC4pH4ULxdxGyd68DyaO_GeA"
       },
 
       {
-        part: "8.png",
-        partnerName: "Газпром добыча Оренбург",
+        logoName: "8.png",
+        partner: "Газпром добыча Оренбург",
         url: "https://www.youtube.com/channel/UCbceufXPNgxzinN9gAsGYzg "
       },
 
       {
-        part: "18.png",
-        partnerName: "Сорбент",
+        logoName: "18.png",
+        partner: "Сорбент",
         url: "https://www.youtube.com/channel/UCBBEf7-BOE_5AdNBjIsIoEg?view_as=subscriber"
       },
 
       {
-        part: "20.png",
-        partnerName: "Пермская государственная художественная галерея",
+        logoName: "20.png",
+        partner: "Пермская государственная художественная галерея",
         url: "https://www.youtube.com/channel/UCoK6mQWsv_3aRvEOj8o93Xw "
       },
 
       {
-        part: "22.png",
-        partnerName: "Комбинат рабочей одежды",
+        logoName: "22.png",
+        partner: "Комбинат рабочей одежды",
         url: "https://www.youtube.com/watch?v=fRfsclzXZIw"
       },
 
       {
-        part: "23.png",
-        partnerName: "Башнефть",
+        logoName: "23.png",
+        partner: "Башнефть",
         url: "https://www.youtube.com/channel/UCX4M8VJr2UdRmkSUvRVsrAQ"
       },
 
       {
-        part: "26.png",
-        partnerName: "Екатеринбургский государственный академический театр оперы и балета",
+        logoName: "26.png",
+        partner: "Екатеринбургский государственный академический театр оперы и балета",
         url: "https://www.youtube.com/channel/UC7P_pWfpnZdSv3I7VKPCsUg"
       },
 
       {
-        part: "32.png",
-        partnerName: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
+        logoName: "32.png",
+        partner: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
         url: "https://www.youtube.com/channel/UCl_U3Vg0TLzigSGe5U1w4Ew"
       },
 
       {
-        part: "33.svg",
-        partnerName: "Эл5 – Энерго",
+        logoName: "33.svg",
+        partner: "Эл5 – Энерго",
         url: "https://www.youtube.com/@EL5-Energo"
       },
 
       {
-        part: "34.svg",
-        partnerName: "Титановая долина",
+        logoName: "34.svg",
+        partner: "Титановая долина",
         url: "https://www.youtube.com/channel/UCETW0RZXdhngMJ3HQEifSVg "
       },
 
       {
-        part: "36.svg",
-        partnerName: "Россети Урал (ОАО «МРСК Урала»)",
+        logoName: "36.svg",
+        partner: "Россети Урал (ОАО «МРСК Урала»)",
         url: "https://www.youtube.com/c/РоссетиУрал"
       },
 
       {
-        part: "39.png",
-        partnerName: "Газпром трансгаз Сургут",
+        logoName: "39.png",
+        partner: "Газпром трансгаз Сургут",
         url: "https://www.youtube.com/channel/UCj0fyweCjia4kU610bvsi4w?app=desktop"
       },
 
       {
-        part: "40.png",
-        partnerName: "СибурТюменьГаз",
+        logoName: "40.png",
+        partner: "СибурТюменьГаз",
         url: "https://www.youtube.com/user/SiburHolding; https://dzen.ru/siburofficial; "
       },
 
       {
-        part: "42.png",
-        partnerName: "Газпром Добыча Уренгой",
+        logoName: "42.png",
+        partner: "Газпром Добыча Уренгой",
         url: "https://www.youtube.com/channel/UC9OI6vTwRThPXz17ezwyz4g "
       },
 
       {
-        part: "48.jpg",
-        partnerName: "Уралпромтехника",
+        logoName: "48.jpg",
+        partner: "Уралпромтехника",
         url: "https://www.youtube.com/channel/UCjA8N0k_CxqToIIEZuSuY9A?view_as=subscriber "
       },
 
       {
-        part: "49.png",
-        partnerName: "Челябинский цинковый завод",
+        logoName: "49.png",
+        partner: "Челябинский цинковый завод",
         url: "https://www.youtube.com/channel/UChpiO-6iLXjw9HgrNQpHPRA "
       },
 
       {
-        part: "52.png",
-        partnerName: "Челябинский кузнечно-прессовый завод",
+        logoName: "52.png",
+        partner: "Челябинский кузнечно-прессовый завод",
         url: "https://www.youtube.com/@user-uc3zn4og1y/featured"
       }
     ]
@@ -928,14 +928,14 @@ export const media = [
       },
 
       {
-        part: "23.png",
-        partnerName: "Башнефть",
+        logoName: "23.png",
+        partner: "Башнефть",
         url: "https://dzen.ru/bashneftru"
       },
 
       {
-        part: "32.png",
-        partnerName: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
+        logoName: "32.png",
+        partner: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
         url: "https://dzen.ru/uvznews"
       },
 

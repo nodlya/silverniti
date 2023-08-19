@@ -33,6 +33,7 @@ export default {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  z-index: 2;
   /* box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1); */
 }
 

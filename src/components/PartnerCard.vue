@@ -6,13 +6,24 @@
         :src="imageLink"
       />
       <div class="right-section">
-        <p>{{ partnerName }}</p>
-        <div class="links">
+        <component
+          :is="component"
+          class="title"
+          :header="isLink"
+          :type="partnerName"
+          :href="partnerLinkList"
+        >
+          {{ partnerName }}
+        </component>
+        <div
+          v-if="haveLinks"
+          class="links"
+        >
           <partner-link
-            v-for="{ id, type, url } in partnerLinkList"
-            :key="id"
-            :type="type"
-            :url="url"
+            v-for="{ title, link } in partnerLinkList"
+            :key="link"
+            :type="title"
+            :url="link"
           />
         </div>
       </div>
@@ -41,7 +52,7 @@ export default {
     },
 
     partnerLinkList: {
-      type: Array,
+      type: [Array, String],
       default: () => []
     }
   },
@@ -49,24 +60,37 @@ export default {
   computed: {
     imageLink() {
       return `/src/assets/partners_logo/${this.partnerLogoName}`;
+    },
+
+    component() {
+      return typeof this.partnerLinkList === "string" ? "PartnerLink" : "p";
+    },
+
+    haveLinks() {
+      return this.component === "p";
+    },
+
+    isLink() {
+      return this.component === "PartnerLink";
     }
   }
 };
 </script>
 
 <style scoped>
-
-.background{
-    width: 80%;
-    display: flex;
-    background-color: #f7f7f7;
-    justify-content: center;
+.background {
+  width: 80%;
+  display: flex;
+  background-color: #f7f7f7;
+  justify-content: center;
 }
 .card {
   display: flex;
   padding: 8px;
   color: black;
   height: 80px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .right-section {
@@ -82,7 +106,12 @@ export default {
 .links {
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 15px;
+}
+
+.title {
+  color: black;
+  text-decoration: none;
 }
 
 img {
@@ -105,6 +134,10 @@ img {
     align-items: flex-end;
     padding: 4px;
     color: black;
+    font-size: 10px !important;
+  }
+
+  title {
     font-size: 10px;
   }
 }

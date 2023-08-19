@@ -7,12 +7,12 @@ const partners_info = [
         partnerName: "Национальный конкурс корпоративные медиа «Серебряные нити»",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://silverniti.ru "
+            title: "Сайт",
+            link: "https://silverniti.ru "
           },
           {
-            type: "ВК",
-            url: "https://vk.com/silverniti"
+            title: "ВК",
+            link: "https://vk.com/silverniti"
           }
         ]
       },
@@ -21,8 +21,8 @@ const partners_info = [
         partnerName: "Академия коммуникации и информации",
         partnerLinksList: [
           {
-            type: "Проект",
-            url: "https://silverniti.ru/школы-и-вебинары2/"
+            title: "Проект",
+            link: "https://silverniti.ru/школы-и-вебинары2/"
           }
         ]
       }
@@ -37,12 +37,12 @@ const partners_info = [
         partnerName: "Кировский завод по обработке цветных металлов",
         partnerLinksList: [
           {
-            type: "Газета",
-            url: "https://kzocm.ru/ru/press/gazety/"
+            title: "Газета",
+            link: "https://kzocm.ru/ru/press/gazety/"
           },
           {
-            type: "Сайт",
-            url: "https://kzocm.ru/ru/"
+            title: "Сайт",
+            link: "https://kzocm.ru/ru/"
           }
         ]
       },
@@ -51,8 +51,8 @@ const partners_info = [
         partnerName: "Омутнинский металлургический завод",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://ommet.ru"
+            title: "Сайт",
+            link: "https://ommet.ru"
           }
         ]
       },
@@ -61,16 +61,16 @@ const partners_info = [
         partnerName: "Электромашиностроительный завод им. ЛЕПСЕ",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "http://www.lepse.com"
+            title: "Сайт",
+            link: "http://www.lepse.com"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/lepse_kirov"
+            title: "ВК",
+            link: "https://vk.com/lepse_kirov"
           },
           {
-            type: "Youtube",
-            url: "https://www.youtube.com/channel/UC4pH4ULxdxGyd68DyaO_GeA"
+            title: "Youtube",
+            link: "https://www.youtube.com/channel/UC4pH4ULxdxGyd68DyaO_GeA"
           }
         ]
       },
@@ -79,16 +79,16 @@ const partners_info = [
         partnerName: "Фабрика игрушек «Весна»",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://vesna.toys"
+            title: "Сайт",
+            link: "https://vesna.toys"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/vesnatoys"
+            title: "ВК",
+            link: "https://vk.com/vesnatoys"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/vesna_toys"
+            title: "Telegram",
+            link: "https://t.me/s/vesna_toys"
           }
         ]
       },
@@ -97,12 +97,12 @@ const partners_info = [
         partnerName: "Кировский областной драматический театр имени С. М. Кирова",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://kirovdramteatr.ru"
+            title: "Сайт",
+            link: "https://kirovdramteatr.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/kirov.dramteatr"
+            title: "ВК",
+            link: "https://vk.com/kirov.dramteatr"
           }
         ]
       }
@@ -117,16 +117,16 @@ const partners_info = [
         partnerName: "Газпром добыча Оренбург",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://orenburg-dobycha.gazprom.ru"
+            title: "Сайт",
+            link: "https://orenburg-dobycha.gazprom.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/gdo_smi"
+            title: "ВК",
+            link: "https://vk.com/gdo_smi"
           },
           {
-            type: "Газета",
-            url: "https://orenburg-dobycha.gazprom.ru/press/journal/"
+            title: "Газета",
+            link: "https://orenburg-dobycha.gazprom.ru/press/journal/"
           }
         ]
       },
@@ -135,16 +135,16 @@ const partners_info = [
         partnerName: "Уральская Сталь",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://uralsteel.com"
+            title: "Сайт",
+            link: "https://uralsteel.com"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/uralsteel.news"
+            title: "ВК",
+            link: "https://vk.com/uralsteel.news"
           },
           {
-            type: "Газета",
-            url: "https://vk.com/uralsteel.news?z=photo-195252038_457250707%2Falbum-195252038_00%2Frev"
+            title: "Газета",
+            link: "https://vk.com/uralsteel.news?z=photo-195252038_457250707%2Falbum-195252038_00%2Frev"
           }
         ]
       }
@@ -159,16 +159,16 @@ const partners_info = [
         partnerName: "ЛУКОЙЛ-ПЕРМЬ",
         partnerLinksList: [
           {
-            type: "Газета",
-            url: "https://permneft-portal.ru/"
+            title: "Газета",
+            link: "https://permneft-portal.ru/"
           },
           {
-            type: "Сайт",
-            url: "https://perm.lukoil.ru/ru/"
+            title: "Сайт",
+            link: "https://perm.lukoil.ru/ru/"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/lukoilofficial"
+            title: "Telegram",
+            link: "https://t.me/lukoilofficial"
           }
         ]
       },
@@ -177,171 +177,173 @@ const partners_info = [
         partnerName: "Метафракс Групп",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "http://metafraxgroup.com"
+            title: "Сайт",
+            link: "http://metafraxgroup.com"
           },
           {
-            type: "Сайт",
-            url: "https://www.metafrax.ru"
+            title: "Сайт",
+            link: "https://www.metafrax.ru"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/MetafraxGroup"
+            title: "Telegram",
+            link: "https://t.me/MetafraxGroup"
+          }
+        ]
+      },
+
+      {
+        partnerLogoName: "12.png",
+        partnerName: "Группа компаний «Тенториум»",
+        partnerLinksList: [
+          {
+            title: "Сайт",
+            link: "https://tentorium.ru"
+          },
+          {
+            title: "ВК",
+            link: "https://vk.com/tentoriumrus"
+          },
+          {
+            title: "Telegram",
+            link: "https://t.me/s/tentoriumrus"
+          }
+        ]
+      },
+      {
+        partnerLogoName: "13.png",
+        partnerName: "КАМА",
+        partnerLinksList: [
+          {
+            title: "Сайт",
+            link: "https://cbk-kama.com/rus/"
+          },
+          {
+            title: "Telegram",
+            link: "https://t.me/s/oookama"
+          },
+          {
+            title: "ВК",
+            link: "https://vk.com/oookama"
+          }
+        ]
+      },
+      {
+        partnerLogoName: "14.png",
+        partnerName: "Камский кабель",
+        partnerLinksList: [
+          {
+            title: "Газета",
+            link: "https://www.kamkabel.ru/press/paper/"
+          },
+          {
+            title: "Сайт",
+            link: "https://www.kamkabel.ru"
+          },
+          {
+            title: "ВК",
+            link: "https://vk.com/kamkabel"
+          }
+        ]
+      },
+      {
+        partnerLogoName: "15.png",
+        partnerName: "СОЛИКАМСКБУМПРОМ",
+        partnerLinksList: [
+          {
+            title: "Сайт",
+            link: "https://www.solbum.ru"
+          },
+          {
+            title: "ОК",
+            link: "https://ok.ru/group/66853424136237"
+          }
+        ]
+      },
+      {
+        partnerLogoName: "16.png",
+        partnerName: "Мотовилихинские заводы",
+        partnerLinksList: [
+          {
+            title: "ВК",
+            link: "https://vk.com/perm_mz"
+          }
+        ]
+      },
+      {
+        partnerLogoName: "17.png",
+        partnerName: "Протон-ПМ",
+        partnerLinksList: [
+          {
+            title: "Сайт",
+            link: "https://protonpm.ru"
+          },
+          {
+            title: "ВК",
+            link: "https://vk.com/protonpm"
+          },
+          {
+            title: "Газета",
+            link: ["https://protonpm.ru/corporate/win/download/1785/"]
+          }
+        ]
+      },
+      {
+        partnerLogoName: "18.png",
+        partnerName: "Сорбент",
+        partnerLinksList: [
+          {
+            title: "Сайт",
+            link: "https://sorbent.su"
+          },
+          {
+            title: "ВК",
+            link: "https://vk.com/zeligr"
+          },
+          {
+            title: "Youtube",
+            link: "https://www.youtube.com/channel/UCBBEf7-BOE_5AdNBjIsIoEg?view_as=subscriber"
+          }
+        ]
+      },
+      {
+        partnerLogoName: "19.svg",
+        partnerName: "Александровский машиностроительный завод",
+        partnerLinksList: [
+          {
+            title: "Сайт",
+            link: "https://amzavod.ru"
+          },
+          {
+            title: "ВК",
+            link: "https://vk.com/amz_perm"
+          },
+          {
+            title: "Telegram",
+            link: "https://t.me/s/nashamz"
+          }
+        ]
+      },
+      {
+        partnerLogoName: "20.png",
+        partnerName: "Пермская государственная художественная галерея",
+        partnerLinksList: [
+          {
+            title: "Сайт",
+            link: "https://permartmuseum.ru"
+          },
+          {
+            title: "Telegram",
+            link: "https://t.me/s/permartmuseum"
+          },
+          {
+            title: "ВК",
+            link: "https://vk.com/club5281156"
           }
         ]
       }
     ]
   },
-  {
-    partnerLogoName: "12.png",
-    partnerName: "Группа компаний «Тенториум»",
-    partnerLinksList: [
-      {
-        type: "Сайт",
-        url: "https://tentorium.ru"
-      },
-      {
-        type: "ВК",
-        url: "https://vk.com/tentoriumrus"
-      },
-      {
-        type: "Telegram",
-        url: "https://t.me/s/tentoriumrus"
-      }
-    ]
-  },
-  {
-    partnerLogoName: "13.png",
-    partnerName: "КАМА",
-    partnerLinksList: [
-      {
-        type: "Сайт",
-        url: "https://cbk-kama.com/rus/"
-      },
-      {
-        type: "Telegram",
-        url: "https://t.me/s/oookama"
-      },
-      {
-        type: "ВК",
-        url: "https://vk.com/oookama"
-      }
-    ]
-  },
-  {
-    partnerLogoName: "14.png",
-    partnerName: "Камский кабель",
-    partnerLinksList: [
-      {
-        type: "Газета",
-        url: "https://www.kamkabel.ru/press/paper/"
-      },
-      {
-        type: "Сайт",
-        url: "https://www.kamkabel.ru"
-      },
-      {
-        type: "ВК",
-        url: "https://vk.com/kamkabel"
-      }
-    ]
-  },
-  {
-    partnerLogoName: "15.png",
-    partnerName: "СОЛИКАМСКБУМПРОМ",
-    partnerLinksList: [
-      {
-        type: "Сайт",
-        url: "https://www.solbum.ru"
-      },
-      {
-        type: "ОК",
-        url: "https://ok.ru/group/66853424136237"
-      }
-    ]
-  },
-  {
-    partnerLogoName: "16.png",
-    partnerName: "Мотовилихинские заводы",
-    partnerLinksList: [
-      {
-        type: "ВК",
-        url: "https://vk.com/perm_mz"
-      }
-    ]
-  },
-  {
-    partnerLogoName: "17.png",
-    partnerName: "Протон-ПМ",
-    partnerLinksList: [
-      {
-        type: "Сайт",
-        url: "https://protonpm.ru"
-      },
-      {
-        type: "ВК",
-        url: "https://vk.com/protonpm"
-      },
-      {
-        type: "Газета",
-        url: ["https://protonpm.ru/corporate/win/download/1785/"]
-      }
-    ]
-  },
-  {
-    partnerLogoName: "18.png",
-    partnerName: "Сорбент",
-    partnerLinksList: [
-      {
-        type: "Сайт",
-        url: "https://sorbent.su"
-      },
-      {
-        type: "ВК",
-        url: "https://vk.com/zeligr"
-      },
-      {
-        type: "Youtube",
-        url: "https://www.youtube.com/channel/UCBBEf7-BOE_5AdNBjIsIoEg?view_as=subscriber"
-      }
-    ]
-  },
-  {
-    partnerLogoName: "19.svg",
-    partnerName: "Александровский машиностроительный завод",
-    partnerLinksList: [
-      {
-        type: "Сайт",
-        url: "https://amzavod.ru"
-      },
-      {
-        type: "ВК",
-        url: "https://vk.com/amz_perm"
-      },
-      {
-        type: "Telegram",
-        url: "https://t.me/s/nashamz"
-      }
-    ]
-  },
-  {
-    partnerLogoName: "20.png",
-    partnerName: "Пермская государственная художественная галерея",
-    partnerLinksList: [
-      {
-        type: "Сайт",
-        url: "https://permartmuseum.ru"
-      },
-      {
-        type: "Telegram",
-        url: "https://t.me/s/permartmuseum"
-      },
-      {
-        type: "ВК",
-        url: "https://vk.com/club5281156"
-      }
-    ]
-  },
+
   {
     locality: "Республика Башкортостан",
     body: [
@@ -350,12 +352,12 @@ const partners_info = [
         partnerName: "Башкирская содовая компания",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.soda.ru/ru/"
+            title: "Сайт",
+            link: "https://www.soda.ru/ru/"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/soda_ru"
+            title: "ВК",
+            link: "https://vk.com/soda_ru"
           }
         ]
       },
@@ -364,16 +366,16 @@ const partners_info = [
         partnerName: "Комбинат рабочей одежды",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.kro-ufa.ru"
+            title: "Сайт",
+            link: "https://www.kro-ufa.ru"
           },
           {
-            type: "Youtube",
-            url: "https://www.youtube.com/watch?v=fRfsclzXZIw"
+            title: "Youtube",
+            link: "https://www.youtube.com/watch?v=fRfsclzXZIw"
           },
           {
-            type: "Газета",
-            url: "https://kro-ufa.ru/page/korporativnye-media"
+            title: "Газета",
+            link: "https://kro-ufa.ru/page/korporativnye-media"
           }
         ]
       },
@@ -382,12 +384,12 @@ const partners_info = [
         partnerName: "Башнефть",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.bashneft.ru"
+            title: "Сайт",
+            link: "https://www.bashneft.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/bashneftcompany"
+            title: "ВК",
+            link: "https://vk.com/bashneftcompany"
           }
         ]
       }
@@ -402,12 +404,12 @@ const partners_info = [
         partnerName: "Русская медная компания",
         partnerLinksList: [
           {
-            type: "ВК",
-            url: "https://vk.com/rccgroup"
+            title: "ВК",
+            link: "https://vk.com/rccgroup"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/russiancoppercompany"
+            title: "Telegram",
+            link: "https://t.me/s/russiancoppercompany"
           }
         ]
       },
@@ -416,12 +418,12 @@ const partners_info = [
         partnerName: "Корпорация развития Среднего Урала",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://investural.com"
+            title: "Сайт",
+            link: "https://investural.com"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/investuralcom"
+            title: "ВК",
+            link: "https://vk.com/investuralcom"
           }
         ]
       },
@@ -430,20 +432,20 @@ const partners_info = [
         partnerName: "Екатеринбургский государственный академический театр оперы и балета",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://uralopera.ru"
+            title: "Сайт",
+            link: "https://uralopera.ru"
           },
           {
-            type: "Газета",
-            url: "https://uralopera.ru/newspaper"
+            title: "Газета",
+            link: "https://uralopera.ru/newspaper"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/uralopera"
+            title: "ВК",
+            link: "https://vk.com/uralopera"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/UralOperaBallet"
+            title: "Telegram",
+            link: "https://t.me/s/UralOperaBallet"
           }
         ]
       },
@@ -452,12 +454,12 @@ const partners_info = [
         partnerName: "ФАРФОР СЫСЕРТИ",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://farfor-sysert.com/o_nas"
+            title: "Сайт",
+            link: "https://farfor-sysert.com/o_nas"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/farfor.syserty"
+            title: "ВК",
+            link: "https://vk.com/farfor.syserty"
           }
         ]
       },
@@ -466,20 +468,20 @@ const partners_info = [
         partnerName: "Уральский турбинный завод",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.utz.ru"
+            title: "Сайт",
+            link: "https://www.utz.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/club194340911"
+            title: "ВК",
+            link: "https://vk.com/club194340911"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/rotec_utz"
+            title: "Telegram",
+            link: "https://t.me/s/rotec_utz"
           },
           {
-            type: "Газета",
-            url: "https://www.utz.ru/press/newspaper/"
+            title: "Газета",
+            link: "https://www.utz.ru/press/newspaper/"
           }
         ]
       },
@@ -488,12 +490,12 @@ const partners_info = [
         partnerName: "ВИЗ-Сталь",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://viz-steel.nlmk.com/ru/"
+            title: "Сайт",
+            link: "https://viz-steel.nlmk.com/ru/"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/viz_steel_nlmk"
+            title: "ВК",
+            link: "https://vk.com/viz_steel_nlmk"
           }
         ]
       },
@@ -502,8 +504,8 @@ const partners_info = [
         partnerName: "УГМК-Холдинг",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://ugmk.com"
+            title: "Сайт",
+            link: "https://ugmk.com"
           }
         ]
       },
@@ -512,16 +514,16 @@ const partners_info = [
         partnerName: "Уралэлектромедь",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://elem.ru/ru/"
+            title: "Сайт",
+            link: "https://elem.ru/ru/"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/elem_cuprum"
+            title: "ВК",
+            link: "https://vk.com/elem_cuprum"
           },
           {
-            type: "Газета",
-            url: "https://elem.ru/ru/press/corporate_press/gazeta-za-med/?YEAR=2023&MONTH=2&NUM="
+            title: "Газета",
+            link: "https://elem.ru/ru/press/corporate_press/gazeta-za-med/?YEAR=2023&MONTH=2&NUM="
           }
         ]
       },
@@ -530,12 +532,12 @@ const partners_info = [
         partnerName: "Научно-производственная корпорация «Уралвагонзавод» имени Ф.Э. Дзержинского",
         partnerLinksList: [
           {
-            type: "ВК",
-            url: "https://vk.com/realuvznews"
+            title: "ВК",
+            link: "https://vk.com/realuvznews"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/uvznews"
+            title: "Telegram",
+            link: "https://t.me/s/uvznews"
           }
         ]
       },
@@ -544,12 +546,12 @@ const partners_info = [
         partnerName: "Эл5 – Энерго",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.el5-energo.ru/investors/"
+            title: "Сайт",
+            link: "https://www.el5-energo.ru/investors/"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/EL5_Energo"
+            title: "Telegram",
+            link: "https://t.me/s/EL5_Energo"
           }
         ]
       },
@@ -558,16 +560,16 @@ const partners_info = [
         partnerName: "Титановая долина",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://titanium-valley.com"
+            title: "Сайт",
+            link: "https://titanium-valley.com"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/public207126738"
+            title: "ВК",
+            link: "https://vk.com/public207126738"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/oeztv"
+            title: "Telegram",
+            link: "https://t.me/s/oeztv"
           }
         ]
       },
@@ -576,16 +578,16 @@ const partners_info = [
         partnerName: "Корпорация ВСМПО-АВИСМА",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://vsmpo.ru/"
+            title: "Сайт",
+            link: "https://vsmpo.ru/"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/vsmpo_avisma_official"
+            title: "Telegram",
+            link: "https://t.me/vsmpo_avisma_official"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/press.room"
+            title: "ВК",
+            link: "https://vk.com/press.room"
           }
         ]
       },
@@ -594,16 +596,16 @@ const partners_info = [
         partnerName: "Россети Урал (ОАО «МРСК Урала»)",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://rosseti-ural.ru"
+            title: "Сайт",
+            link: "https://rosseti-ural.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/rosseti_ural"
+            title: "ВК",
+            link: "https://vk.com/rosseti_ural"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/rosseti_ural"
+            title: "Telegram",
+            link: "https://t.me/s/rosseti_ural"
           }
         ]
       },
@@ -612,16 +614,16 @@ const partners_info = [
         partnerName: "Серовский механический завод",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.serovmp.ru"
+            title: "Сайт",
+            link: "https://www.serovmp.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/id256460065"
+            title: "ВК",
+            link: "https://vk.com/id256460065"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/trud_vaht"
+            title: "Telegram",
+            link: "https://t.me/s/trud_vaht"
           }
         ]
       }
@@ -636,12 +638,12 @@ const partners_info = [
         partnerName: "Группа страховых компаний «Югория",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://ugsk.ru/"
+            title: "Сайт",
+            link: "https://ugsk.ru/"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/ugoria24"
+            title: "ВК",
+            link: "https://vk.com/ugoria24"
           }
         ]
       },
@@ -650,16 +652,16 @@ const partners_info = [
         partnerName: "Газпром трансгаз Сургут",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://surgut-tr.gazprom.ru"
+            title: "Сайт",
+            link: "https://surgut-tr.gazprom.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/gazpromtransgazsurgut"
+            title: "ВК",
+            link: "https://vk.com/gazpromtransgazsurgut"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/gazpromtransgazsurgut"
+            title: "Telegram",
+            link: "https://t.me/s/gazpromtransgazsurgut"
           }
         ]
       },
@@ -668,16 +670,16 @@ const partners_info = [
         partnerName: "СибурТюменьГаз",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.sibur.ru/SiburTumenGaz/"
+            title: "Сайт",
+            link: "https://www.sibur.ru/SiburTumenGaz/"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/siburofficial"
+            title: "Telegram",
+            link: "https://t.me/s/siburofficial"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/career.sibur"
+            title: "ВК",
+            link: "https://vk.com/career.sibur"
           }
         ]
       },
@@ -686,12 +688,12 @@ const partners_info = [
         partnerName: "Мостострой – 11",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://ms11.ru/o-kompanii"
+            title: "Сайт",
+            link: "https://ms11.ru/o-kompanii"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/mostostroy_11"
+            title: "ВК",
+            link: "https://vk.com/mostostroy_11"
           }
         ]
       },
@@ -700,16 +702,16 @@ const partners_info = [
         partnerName: "Газпром Добыча Уренгой",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://urengoy-dobycha.gazprom.ru/"
+            title: "Сайт",
+            link: "https://urengoy-dobycha.gazprom.ru/"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/gazpromdobychaurengoy"
+            title: "ВК",
+            link: "https://vk.com/gazpromdobychaurengoy"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/gazurengoya"
+            title: "Telegram",
+            link: "https://t.me/s/gazurengoya"
           }
         ]
       }
@@ -723,12 +725,12 @@ const partners_info = [
         partnerName: "Ламинарные системы",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.lamsys.ru"
+            title: "Сайт",
+            link: "https://www.lamsys.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/lamsys"
+            title: "ВК",
+            link: "https://vk.com/lamsys"
           }
         ]
       },
@@ -737,16 +739,16 @@ const partners_info = [
         partnerName: "СИТНО",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://sitno.ru"
+            title: "Сайт",
+            link: "https://sitno.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/sitno_official"
+            title: "ВК",
+            link: "https://vk.com/sitno_official"
           },
           {
-            type: "Газета",
-            url: "https://sitno.ru/korporativnaya-gazeta"
+            title: "Газета",
+            link: "https://sitno.ru/korporativnaya-gazeta"
           }
         ]
       },
@@ -755,12 +757,12 @@ const partners_info = [
         partnerName: "Хлебпром",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.hlebprom.ru"
+            title: "Сайт",
+            link: "https://www.hlebprom.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/hlebprom"
+            title: "ВК",
+            link: "https://vk.com/hlebprom"
           }
         ]
       },
@@ -769,12 +771,12 @@ const partners_info = [
         partnerName: "Автомобильный завод «УРАЛ»",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://uralaz.ru"
+            title: "Сайт",
+            link: "https://uralaz.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/azural.miass"
+            title: "ВК",
+            link: "https://vk.com/azural.miass"
           }
         ]
       },
@@ -783,16 +785,16 @@ const partners_info = [
         partnerName: "Челябинвестбанк",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://chelinvest.ru/?ckattempt=1"
+            title: "Сайт",
+            link: "https://chelinvest.ru/?ckattempt=1"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/bankchelinvest"
+            title: "ВК",
+            link: "https://vk.com/bankchelinvest"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/chelinvest_bank"
+            title: "Telegram",
+            link: "https://t.me/s/chelinvest_bank"
           }
         ]
       },
@@ -801,12 +803,12 @@ const partners_info = [
         partnerName: "Уралпромтехника",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://uralpromteh.ru"
+            title: "Сайт",
+            link: "https://uralpromteh.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/uralpromtehnika"
+            title: "ВК",
+            link: "https://vk.com/uralpromtehnika"
           }
         ]
       },
@@ -815,12 +817,12 @@ const partners_info = [
         partnerName: "Челябинский цинковый завод",
         partnerLinksList: [
           {
-            type: "ВК",
-            url: "https://vk.com/zinc74"
+            title: "ВК",
+            link: "https://vk.com/zinc74"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/zinc74"
+            title: "Telegram",
+            link: "https://t.me/s/zinc74"
           }
         ]
       },
@@ -829,8 +831,8 @@ const partners_info = [
         partnerName: "Трубодеталь/Челябинский завод ОМК",
         partnerLinksList: [
           {
-            type: "ВК",
-            url: "https://vk.com/trubodetal"
+            title: "ВК",
+            link: "https://vk.com/trubodetal"
           }
         ]
       },
@@ -839,16 +841,16 @@ const partners_info = [
         partnerName: "Магнитогорский металлургический комбинат",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://mmk.ru/ru/"
+            title: "Сайт",
+            link: "https://mmk.ru/ru/"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/mmk.steel"
+            title: "ВК",
+            link: "https://vk.com/mmk.steel"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/MMK_official"
+            title: "Telegram",
+            link: "https://t.me/s/MMK_official"
           }
         ]
       },
@@ -857,16 +859,16 @@ const partners_info = [
         partnerName: "Челябинский кузнечно-прессовый завод",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.chkpz.ru"
+            title: "Сайт",
+            link: "https://www.chkpz.ru"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/chkpz"
+            title: "ВК",
+            link: "https://vk.com/chkpz"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/s/chkpz_official"
+            title: "Telegram",
+            link: "https://t.me/s/chkpz_official"
           }
         ]
       },
@@ -875,16 +877,16 @@ const partners_info = [
         partnerName: "Челябинский государственный университет",
         partnerLinksList: [
           {
-            type: "Сайт",
-            url: "https://www.csu.ru/"
+            title: "Сайт",
+            link: "https://www.csu.ru/"
           },
           {
-            type: "ВК",
-            url: "https://vk.com/csu76"
+            title: "ВК",
+            link: "https://vk.com/csu76"
           },
           {
-            type: "Telegram",
-            url: "https://t.me/csu76"
+            title: "Telegram",
+            link: "https://t.me/csu76"
           }
         ]
       }

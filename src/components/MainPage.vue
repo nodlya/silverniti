@@ -98,6 +98,7 @@ export default {
 
     .main-page__text {
       padding-left: 0;
+      font-size: 16px;
     }
 
     .main-page__button {
