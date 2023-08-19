@@ -1,79 +1,109 @@
 <template>
-    <div class="container">
-        <div class="main-page-grid">
-            <div class="box-1">
-                <img class="main-page_img1" src="../assets/1.svg" />
-            </div>
-            <div class="box-2">
-                <p class="main-page_text">
-                    Первый в России Региональный конкурс и форум корпоративных изданий и сайтов, первая выставка
-                    корпоративных газет и журналов, прошедшие в Перми в 2005 году. Спустя три года – и тоже впервые в России
-                    – новый шаг в развитии проекта – Национальный конкурс корпоративных медиа.
-                </p>
-            </div>
-        </div>
-        <div class="box-3">
-            <img class="main-page_img2" src="../assets/timeline.png" />
-        </div>
-        <button class="buttonclick">ПОДРОБНЕЕ О ПРОЕКТЕ</button>
-    </div>
+  <div class="main-page">
+    <img
+      class="main-page__logo"
+      src="../assets/logo.svg"
+    />
+    <p class="main-page__text">
+      Первый в России Региональный конкурс и форум корпоративных изданий и сайтов, первая выставка
+      корпоративных газет и журналов, прошедшие в Перми в 2005 году. Спустя три года – и тоже
+      впервые в России – новый шаг в развитии проекта – Национальный конкурс корпоративных медиа.
+    </p>
+    <img
+      class="main-page__timeline"
+      alt="timeline"
+      :src="timelineName"
+    />
+    <!-- TODO добавить ссылку куда должна вести кнопка -->
+    <button class="main-page__button">ПОДРОБНЕЕ О ПРОЕКТЕ</button>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "MainPage",
+  name: "MainPage",
+  data() {
+    return {
+      width: 0
+    };
+  },
+
+  computed: {
+    timelineName() {
+      return this.width > 900 ? "src/assets/timeline.png" : "src/assets/timeline-mobile.svg";
+    }
+  },
+
+  created() {
+    window.addEventListener("resize", () => (this.width = window.innerWidth));
+  }
 };
 </script>
 
 <style scoped>
-.container {
-    background-color: white;
-    color: black;
-    justify-content: center;
-    margin-bottom: 25vh;
-}
+.main-page {
+  width: 100%;
+  display: grid;
+  grid-template: 412px 100px auto / 50% 50%;
+  grid-template-areas:
+    "logo text"
+    "timeline timeline"
+    ". button";
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+  padding: 0 50px;
 
-.main-page-grid {
+  .main-page__logo {
+    grid-area: logo;
+    padding-right: 75px;
     width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
+    align-self: flex-start;
+  }
 
-[class^="box-"] {
-    display: grid;
-    place-items: center;
-}
-
-.main-page_img1 {
-    height: auto;
-    width: 80%;
-}
-
-.main-page_img2 {
-    height: auto;
-    width: 90%;
-}
-
-.main-page_text {
-    width: 70%;
+  .main-page__text {
+    grid-area: text;
+    width: 100%;
     font-size: 23px;
     text-align: right;
-    text-transform: uppercase;
-    margin-top: 90px;
-}
+    padding-left: 75px;
+  }
 
-.box-3 {
-    margin-top: 10%;
-    margin-bottom: 5%;
-    height: auto;
-}
+  .main-page__timeline {
+    width: 100%;
+    grid-area: timeline;
+  }
 
-button {
+  .main-page__button {
+    grid-area: button;
     font-size: 20px;
-    float: right;
-    margin-right: 45px;
-    padding: .7em 2.1em;
+    font-weight: 600;
+    padding: 0.7em 2.1em;
     color: aliceblue;
     background-color: black;
+    width: 50%;
+    justify-self: right;
+  }
+}
+
+@media (max-width: 900px) {
+  .main-page {
+    display: flex;
+    flex-direction: column;
+
+    .main-page__logo {
+      padding-bottom: 25px;
+      padding-right: 0;
+    }
+
+    .main-page__text {
+      padding-left: 0;
+      font-size: 16px;
+    }
+
+    .main-page__button {
+      font-size: 16px;
+    }
+  }
 }
 </style>

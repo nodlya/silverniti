@@ -1,34 +1,12 @@
 <template>
-  <div>
+  <div class="page-wrapper">
     <nav-bar />
     <div class="content">
       <main-page />
-      <img
-        src="./assets/Line 4.png"
-        class="line"
-      />
-      <div class="sections">
-        <div
-          v-for="{ locality, body } in partners_info"
-          :key="locality"
-          class="section"
-        >
-          <h2>{{ locality }}</h2>
-          <div
-            v-for="{ id, partnerLogoName, partnerName, partnerLinksList } in body"
-            :key="id"
-            class="cards"
-          >
-            <partner-card
-              :partner-logo-name="partnerLogoName"
-              :partner-name="partnerName"
-              :partner-link-list="partnerLinksList"
-            />
-          </div>
-        </div>
-      </div>
-      <footer-component />
+      <partners-content />
+      <v-accordeon />
     </div>
+    <footer-component />
   </div>
 </template>
 
@@ -36,8 +14,8 @@
 import MainPage from "./components/MainPage.vue";
 import NavBar from "./components/NavBar.vue";
 import FooterComponent from "./components/FooterComponent.vue";
-import PartnerCard from "./components/PartnerCard.vue";
-import partners_info from "./partners_info.js";
+import VAccordeon from "./components/VAccordeon.vue";
+import PartnersContent from "./components/PartnersContent.vue";
 
 export default {
   name: "App",
@@ -45,36 +23,46 @@ export default {
     MainPage,
     NavBar,
     FooterComponent,
-    PartnerCard
-  },
-
-  data() {
-    return {
-      partners_info
-    };
+    VAccordeon,
+    PartnersContent
   }
 };
 </script>
 
 <style>
-main-page {
-  background-color: white;
-  margin-bottom: 5vh;
+@font-face {
+  font-family: "Manrope";
+  font-weight: 400;
+  src: url(./assets/fonts/Manrope.ttf);
+}
+
+/* semiBold шрифт */
+@font-face {
+  font-family: "Manrope";
+  font-weight: 600;
+  src: url(./assets/fonts/Manrope.ttf);
+}
+
+* {
+  font-family: "manrope";
+}
+
+nav-bar {
+  z-index: 1 !important;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
 }
 
 .content {
-  padding-top: 130px;
-  color: black;
-}
-
-.line {
-  width: 100%;
-}
-
-.cards {
+  margin-top: 130px;
   display: flex;
-  flex-direction: row;
-  gap: 16px;
-  margin: 16px;
+  flex-direction: column;
+  gap: 100px;
+  color: black;
+  padding: 0 40px;
 }
 </style>
