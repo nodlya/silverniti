@@ -3,10 +3,10 @@
     <nav-bar />
     <div class="content">
       <main-page />
-      <partners-content />
-      <v-accordeon />
+      <partners-content id="partners"/>
+      <v-accordeon id="links" />
     </div>
-    <footer-component />
+    <footer-component id="footer"/>
   </div>
 </template>
 
