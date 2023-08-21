@@ -11,7 +11,7 @@
           class="title"
           :header="isLink"
           :type="partnerName"
-          :href="partnerLinkList"
+          :url="partnerLinkList"
         >
           {{ partnerName }}
         </component>
