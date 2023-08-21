@@ -1,13 +1,13 @@
 <template>
   <ul class="navbar-menu">
     <li>
-      <a href="#"> РЕГИОНЫ </a>
+      <a href="#partners"> РЕГИОНЫ </a>
     </li>
     <li>
-      <a href="#">МЕДИАРЕСУРСЫ</a>
+      <a href="#links">МЕДИАРЕСУРСЫ</a>
     </li>
     <li>
-      <a href="#">КОНТАКТЫ</a>
+      <a href="#footer">КОНТАКТЫ</a>
     </li>
   </ul>
 </template>
